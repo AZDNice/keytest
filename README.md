@@ -14,7 +14,7 @@ Install with `pip3` without administrative privileges:
 
     pip3 --install --user .
     
-Install inside a pytohn virtual environment for development:
+Install inside a python virtual environment for development:
 
     python3 -m venv ./venv
     source ./venv/bin/activate
@@ -51,7 +51,7 @@ You'll see output like this:
     PASS: e*d == 1 mod LCM(p-1,q-1)
     
 Each of the statements on the right are requirements of the key. For instance,
-the first test requires that the `e` parameter of the RSA key is less than
+the first test requires that the `e` parameter of the RSA key is greater than
 `2^16`.
 
 ## Changelog
