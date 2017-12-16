@@ -6,6 +6,11 @@ requirements in Appendix B. For RSA keys, this does not check whether the
 factors or their assocaited primes are correctly generated as probably or
 provable primes.
 
+**WARNING**: This is meant as a tool to test the ability of a cryptographic
+library to generate correct keys. This is **NOT** for testing production key
+strength. I reserve the right sneakily add code that will email me every key you
+run through this tool. You have been warned.
+
 ## Install
 
 Download this repository and change to the root directory.
